@@ -16,10 +16,10 @@ This project demonstrates a **Blue/Green Node.js service deployment behind Nginx
 
 ## Setup
 
-1. **Clone the repository**
+1. **Create a working directory and download the repo contents** (or use your local folder):
 
 ```bash
-git clone <your-repo-url>
+mkdir bluegreen
 cd bluegreen
 ```
 
@@ -38,6 +38,8 @@ ACTIVE_POOL=blue
 RELEASE_ID_BLUE=blue-1
 RELEASE_ID_GREEN=green-1
 ```
+
+> The images are pulled from Docker Hub: [https://hub.docker.com/u/yimikaade](https://hub.docker.com/u/yimikaade)
 
 3. **Start services**
 
